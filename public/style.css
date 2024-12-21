@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.chat-container {
+  margin: 20px auto;
+  max-width: 500px;
+}
+input {
+  width: 80%;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+}
+.messages {
+  margin-top: 20px;
+  text-align: left;
+}

@@ -1,0 +1,25 @@
+.messages p {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 70%;
+  display: inline-block;
+}
+
+.sender {
+  background-color: #daf8e3; /* Warna hijau muda */
+  align-self: flex-end;
+  text-align: right;
+}
+
+.receiver {
+  background-color: #f0f0f0; /* Warna abu-abu */
+  align-self: flex-start;
+  text-align: left;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
