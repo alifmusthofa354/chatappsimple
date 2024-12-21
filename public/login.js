@@ -16,7 +16,7 @@ document
     nameuser = username;
 
     // Mengirim data ke backend
-    fetch("/login", {
+    fetch("/chatsimple/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
