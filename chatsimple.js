@@ -19,7 +19,7 @@ app.use(express.static(__dirname + "/public"));
 let users = [{ id: null, username: "admin", key: "kjsdf-kdksd-kksdk-uewnw" }];
 
 // Route untuk login
-app.post("/chatsimple/login", (req, res) => {
+app.post("/login", (req, res) => {
   const { username } = req.body;
   const user = users.find((u) => u.username === username);
   const key = randomUUID();

@@ -16,7 +16,7 @@ document
     nameuser = username;
 
     // Mengirim data ke backend
-    fetch("/chatsimple/login", {
+    fetch("/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -42,7 +42,7 @@ document
 function connectServer() {
   if (!socket) {
     // Membuat koneksi ke server
-    const socket = io("https://petarungan.site/chatsimple/", {
+    const socket = io("https://petarungan.site/", {
       auth: {
         key: tokenkey, // Ganti dengan key yang valid
         nama: nameuser,
